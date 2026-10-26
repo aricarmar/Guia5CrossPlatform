@@ -1,0 +1,54 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:background="#101322">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="HISTORIAL AMBIENTAL"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:textColor="#C6A5FF"
+        android:gravity="center"
+        android:layout_marginBottom="15dp"/>
+
+    <TextView
+        android:id="@+id/txtTotal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Registros guardados: 0"
+        android:textSize="17sp"
+        android:textColor="#FFFFFF"
+        android:layout_marginBottom="15dp"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:id="@+id/contenedorRegistros"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"/>
+    </ScrollView>
+
+    <Button
+        android:id="@+id/btnBorrarTodos"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="ELIMINAR TODOS LOS REGISTROS"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#B32642"/>
+
+    <Button
+        android:id="@+id/btnVolverHistorial"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:text="VOLVER"
+        android:layout_marginTop="10dp"/>
+
+</LinearLayout>

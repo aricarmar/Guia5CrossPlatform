@@ -1,0 +1,53 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="28dp"
+    android:background="#101322">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CONTADOR DE CLICS"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:textColor="#C6A5FF"
+        android:gravity="center"/>
+
+    <TextView
+        android:id="@+id/txtContador"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:textSize="75sp"
+        android:textColor="#FFFFFF"
+        android:gravity="center"
+        android:layout_marginTop="45dp"
+        android:layout_marginBottom="35dp"/>
+
+    <Button
+        android:id="@+id/btnSumar"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="HAZ CLIC AQUÍ"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#673AB7"/>
+
+    <Button
+        android:id="@+id/btnReiniciar"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="REINICIAR CONTADOR"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#45227D"
+        android:layout_marginTop="18dp"/>
+
+    <Button
+        android:id="@+id/btnVolverClicks"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:text="VOLVER AL MENÚ"
+        android:layout_marginTop="30dp"/>
+
+</LinearLayout>

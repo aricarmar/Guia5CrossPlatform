@@ -1,0 +1,58 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="28dp"
+    android:background="@drawable/fondo_splash">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="🌿"
+        android:textSize="70sp"
+        android:layout_marginBottom="24dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="REGISTRO AMBIENTAL"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"
+        android:gravity="center"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Guía 5 · Aplicación móvil"
+        android:textSize="18sp"
+        android:textColor="#D8C5FF"
+        android:gravity="center"
+        android:layout_marginTop="15dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Universidad Manuela Beltrán"
+        android:textSize="17sp"
+        android:textColor="#FFFFFF"
+        android:gravity="center"
+        android:layout_marginTop="45dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ariadna Cardona Martínez\nJulián Eduardo Lozano Ríos"
+        android:textSize="15sp"
+        android:textColor="#D8C5FF"
+        android:gravity="center"
+        android:layout_marginTop="16dp"/>
+
+    <ProgressBar
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:indeterminateTint="#C9A5FF"
+        android:layout_marginTop="40dp"/>
+
+</LinearLayout>

@@ -1,0 +1,123 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:background="#101322">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="25dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="🌿 REGISTRO AMBIENTAL"
+            android:textColor="#C6A5FF"
+            android:textSize="27sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_marginBottom="30dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Lugar"
+            android:textColor="#FFFFFF"
+            android:textSize="17sp"/>
+
+        <EditText
+            android:id="@+id/etLugar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Ejemplo: Bogotá"
+            android:textColor="#FFFFFF"
+            android:textColorHint="#9999AA"
+            android:inputType="textCapSentences"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Temperatura (°C)"
+            android:textColor="#FFFFFF"
+            android:textSize="17sp"
+            android:layout_marginTop="20dp"/>
+
+        <EditText
+            android:id="@+id/etTemperatura"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Ejemplo: 20"
+            android:textColor="#FFFFFF"
+            android:textColorHint="#9999AA"
+            android:inputType="numberDecimal|numberSigned"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Humedad (%)"
+            android:textColor="#FFFFFF"
+            android:textSize="17sp"
+            android:layout_marginTop="20dp"/>
+
+        <EditText
+            android:id="@+id/etHumedad"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Ejemplo: 65"
+            android:textColor="#FFFFFF"
+            android:textColorHint="#9999AA"
+            android:inputType="numberDecimal"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Observaciones"
+            android:textColor="#FFFFFF"
+            android:textSize="17sp"
+            android:layout_marginTop="20dp"/>
+
+        <EditText
+            android:id="@+id/etObservaciones"
+            android:layout_width="match_parent"
+            android:layout_height="110dp"
+            android:hint="Describe las condiciones ambientales"
+            android:textColor="#FFFFFF"
+            android:textColorHint="#9999AA"
+            android:gravity="top"
+            android:inputType="textMultiLine"/>
+
+        <Button
+            android:id="@+id/btnGuardar"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="GUARDAR REGISTRO"
+            android:textColor="#FFFFFF"
+            android:backgroundTint="#673AB7"
+            android:layout_marginTop="25dp"/>
+
+        <Button
+            android:id="@+id/btnLimpiar"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:text="LIMPIAR CAMPOS"
+            android:backgroundTint="#9575CD"
+            android:layout_marginTop="12dp"/>
+
+        <Button
+            android:id="@+id/btnVerRegistros"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:text="VER REGISTROS"
+            android:layout_marginTop="12dp"/>
+
+        <Button
+            android:id="@+id/btnVolverClima"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:text="VOLVER AL MENÚ"
+            android:layout_marginTop="12dp"/>
+
+    </LinearLayout>
+</ScrollView>
